@@ -21,12 +21,17 @@ class WYNavigationViewController: UINavigationController {
     
     override func pushViewController(viewController: UIViewController, animated: Bool) {
         super.pushViewController(viewController, animated: true)
-        if self.viewControllers.count >= 1 {
+        if viewControllers.count > 1 {
             viewController.hidesBottomBarWhenPushed = true
+            viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "lefterbackicon_titlebar_28x28_"),style: .Plain ,target:self, action:#selector(navigationBack))
         }
         
     }
     
+    
+    func navigationBack() -> Void {
+        popViewControllerAnimated(true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

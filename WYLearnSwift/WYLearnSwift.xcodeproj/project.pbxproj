@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B8A78AC1B41A63CEC071B072 /* Pods_WYLearnSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60315A9650B285D30802F5BD /* Pods_WYLearnSwift.framework */; };
+		FA0C5ABC1D792481000CE7CB /* HomeRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C5ABB1D792481000CE7CB /* HomeRequestHelper.swift */; };
+		FA0C5AC01D793F2B000CE7CB /* YMHomeTopTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C5ABF1D793F2B000CE7CB /* YMHomeTopTitle.swift */; };
+		FA0C5AC41D797790000CE7CB /* WYScrollTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C5AC31D797790000CE7CB /* WYScrollTitleView.swift */; };
 		FA6C201E1D76B425002FE55A /* NSString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C20191D76B425002FE55A /* NSString+Extension.swift */; };
 		FA6C201F1D76B425002FE55A /* UIImage+Extendion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C201A1D76B425002FE55A /* UIImage+Extendion.swift */; };
 		FA6C20201D76B425002FE55A /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C201B1D76B425002FE55A /* UIImageView+Extension.swift */; };
@@ -19,12 +22,17 @@
 		FA95F5C51D76B1D6002B6222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95F5C41D76B1D6002B6222 /* AppDelegate.swift */; };
 		FA95F5CC1D76B1D6002B6222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA95F5CB1D76B1D6002B6222 /* Assets.xcassets */; };
 		FA95F5CF1D76B1D6002B6222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA95F5CD1D76B1D6002B6222 /* LaunchScreen.storyboard */; };
+		FAD194E91D76D92600E7118C /* WYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD194E81D76D92600E7118C /* WYTabBarController.swift */; };
+		FAD194EB1D76DA9300E7118C /* WYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD194EA1D76DA9300E7118C /* WYHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C6E50EDD52715C67B7567EB /* Pods-WYLearnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLearnSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYLearnSwift/Pods-WYLearnSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		60315A9650B285D30802F5BD /* Pods_WYLearnSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYLearnSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6346CA33699F4DB08829CE1 /* Pods-WYLearnSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYLearnSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYLearnSwift/Pods-WYLearnSwift.release.xcconfig"; sourceTree = "<group>"; };
+		FA0C5ABB1D792481000CE7CB /* HomeRequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRequestHelper.swift; sourceTree = "<group>"; };
+		FA0C5ABF1D793F2B000CE7CB /* YMHomeTopTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YMHomeTopTitle.swift; sourceTree = "<group>"; };
+		FA0C5AC31D797790000CE7CB /* WYScrollTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYScrollTitleView.swift; sourceTree = "<group>"; };
 		FA6C20191D76B425002FE55A /* NSString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Extension.swift"; sourceTree = "<group>"; };
 		FA6C201A1D76B425002FE55A /* UIImage+Extendion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extendion.swift"; sourceTree = "<group>"; };
 		FA6C201B1D76B425002FE55A /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
@@ -38,6 +46,8 @@
 		FA95F5CB1D76B1D6002B6222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA95F5CE1D76B1D6002B6222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA95F5D01D76B1D6002B6222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD194E81D76D92600E7118C /* WYTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYTabBarController.swift; sourceTree = "<group>"; };
+		FAD194EA1D76DA9300E7118C /* WYHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WYHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,38 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FA0C5ABD1D793EFB000CE7CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C5ABF1D793F2B000CE7CB /* YMHomeTopTitle.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FA0C5ABE1D793F03000CE7CB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C5ABB1D792481000CE7CB /* HomeRequestHelper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		FA0C5AC11D79455C000CE7CB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAD194EA1D76DA9300E7118C /* WYHomeViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		FA0C5AC21D79776C000CE7CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA0C5AC31D797790000CE7CB /* WYScrollTitleView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		FA6C20151D76B381002FE55A /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,10 @@
 		FA6C20161D76B381002FE55A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				FA0C5AC21D79776C000CE7CB /* View */,
+				FA0C5AC11D79455C000CE7CB /* controller */,
+				FA0C5ABE1D793F03000CE7CB /* Helper */,
+				FA0C5ABD1D793EFB000CE7CB /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -120,6 +166,7 @@
 			children = (
 				FA6C20271D76B604002FE55A /* WYBaseViewController.swift */,
 				FA6C20291D76B7A5002FE55A /* WYNavigationViewController.swift */,
+				FAD194E81D76D92600E7118C /* WYTabBarController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,13 +323,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6C20201D76B425002FE55A /* UIImageView+Extension.swift in Sources */,
+				FAD194E91D76D92600E7118C /* WYTabBarController.swift in Sources */,
+				FA0C5AC01D793F2B000CE7CB /* YMHomeTopTitle.swift in Sources */,
 				FA6C20221D76B425002FE55A /* UIView+Extension.swift in Sources */,
 				FA6C202A1D76B7A5002FE55A /* WYNavigationViewController.swift in Sources */,
+				FA0C5ABC1D792481000CE7CB /* HomeRequestHelper.swift in Sources */,
 				FA6C201F1D76B425002FE55A /* UIImage+Extendion.swift in Sources */,
 				FA6C201E1D76B425002FE55A /* NSString+Extension.swift in Sources */,
 				FA6C20251D76B4F7002FE55A /* YMConst.swift in Sources */,
 				FA95F5C51D76B1D6002B6222 /* AppDelegate.swift in Sources */,
+				FAD194EB1D76DA9300E7118C /* WYHomeViewController.swift in Sources */,
 				FA6C20211D76B425002FE55A /* UITableView+Extension.swift in Sources */,
+				FA0C5AC41D797790000CE7CB /* WYScrollTitleView.swift in Sources */,
 				FA6C20281D76B604002FE55A /* WYBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
