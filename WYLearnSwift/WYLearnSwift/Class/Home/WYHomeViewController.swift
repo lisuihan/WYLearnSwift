@@ -40,13 +40,22 @@ class WYHomeViewController: WYBaseViewController {
     
     private func createSubView(){
      
-        tableView.frame = CGRectMake(0, 0, SCREENW, SCREENH)
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.rowHeight = 60
-        view.addSubview(tableView)
+       view.backgroundColor = YMGlobalColor()
+        automaticallyAdjustsScrollViewInsets = false
+        navigationController?.navigationBar.barStyle = .Black
+        navigationController?.navigationBar.barTintColor = YMColor(210, g: 63, b: 66, a: 1.0)
+        navigationItem.titleView = titleView
+        
     }
 
+    private lazy var titleView : WYScrollTitleView = {
+    
+        let topTitleView = WYScrollTitleView()
+        return topTitleView;
+        
+    }()
+    
+    
     //获取多少条数据
     private func requestDataFromNet(){
        
@@ -83,18 +92,6 @@ class WYHomeViewController: WYBaseViewController {
 }
 
 
-extension WYHomeViewController : UITableViewDelegate ,UITableViewDataSource{
+extension WYHomeViewController{
 
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
-    }
-    
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("cellId")
-        if cell == nil {
-            cell = UITableViewCell.init(style: UITableViewCellStyle.Default, reuseIdentifier: "cellId")
-        }
-        
-        return cell!
-    }
 }
