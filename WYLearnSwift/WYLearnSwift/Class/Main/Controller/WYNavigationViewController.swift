@@ -27,6 +27,10 @@ class WYNavigationViewController: UINavigationController {
         
     }
     
+    func name()  {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
